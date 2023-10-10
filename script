@@ -1,3 +1,26 @@
-<c#>
-  
-</c#>
+using System.Collentions.Generic;
+using UnityEngine;
+public class PlayerController : MonoBehaviour
+{
+    public float velocidad;
+    public float velocidadMax;
+
+    private Rigidbody2D rPlayer;
+    private loat h;
+
+private bool miraDerecha = true;
+
+// Start is called beforethe firtsfrema update
+void Start ()
+{
+    rPlayer = GetComponent <Rigidbody2D>();
+}
+// Update is called once per frame
+void Update ()
+{
+}
+private void FixedUpdate ()
+ {
+
+}
+}
