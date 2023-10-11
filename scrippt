@@ -1,0 +1,25 @@
+using System.Collection.Generic;
+using UnityEngine;
+public class Player controller : MonoBehaviour
+{
+    public float velocidad;
+    public float velocidadMax;
+ Hola Mundo
+    private Rigidbody2d rPlayer;
+    private loat h
+private bool miraDerecha = True;
+// Start is called before the first frame uptade
+void Start()
+{
+    rPlayer = GetComponent <Rigidbody2D>() ;
+}
+//Update is called once per frame void Update()
+void uptade ()
+{
+}
+private void FixedUpdate ()
+{
+    h= Input.GetAxisRam("Horizontal") ;
+    rPlayer.AddFOrce (Vector2.right * velocidad *h) ;
+}
+}
