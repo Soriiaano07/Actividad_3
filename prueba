@@ -1,0 +1,21 @@
+using System.Collections.Generic;
+using UnityEngine;
+public class PlayerController : MonoBehaviour
+{
+    Hola 
+    public float velocidad;
+    public float velocidadMax;
+
+    private Rigidbody2D rPlayer;
+    private loat h;
+
+private bool miraDerecha = true;
+
+void Start ()
+{
+    rPlayer = GetComponent<Rigidbody2D>();
+}
+void Update ()
+{
+}
+}
