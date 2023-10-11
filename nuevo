@@ -1,0 +1,21 @@
+using System.Collection.Generic;
+using UnityEngine;
+public class Player controller : MonoBehaviour
+{
+    public float velocidad;
+    public float velocidadMax;
+ Hola Mundo
+    private Rigidbody2d rPlayer;
+    private loat h
+private bool miraDerecha = True;
+// Start is called before the first frame uptade
+void Start()
+{
+    
+}
+//Update is called once per frame void Update()
+void uptade ()
+{
+}
+
+}
