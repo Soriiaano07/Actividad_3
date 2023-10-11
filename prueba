@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
-    Hola Mundo
+    Hola 
     public float velocidad;
     public float velocidadMax;
 
@@ -17,10 +17,5 @@ void Start ()
 }
 void Update ()
 {
-}
-private void FixedUpdate()
-{
-    h= Imput.GetAxisRm("Horizontal");
-    rPlayer.AddForce(Vector2.right * velocidad *h);
 }
 }
